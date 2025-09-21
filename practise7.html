@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <h2>Registration Form</h2>
+
+  <form>
+
+    <!-- Username -->
+    Username: 
+    <input type="text" name="username" required minlength="3" maxlength="20">
+    <br><br>
+
+    <!-- Password -->
+    Password: 
+    <input type="password" name="password" required minlength="6">
+    <br><br>
+
+    <!-- Email -->
+    Email: 
+    <input type="email" name="email" required>
+    <br><br>
+
+    <!-- Age -->
+    Age (optional): 
+    <input type="number" name="age" min="13" max="120" placeholder="Your Age">
+    <br><br>
+
+    <!-- Terms of Service -->
+    <input type="checkbox" name="tos" required> I agree to the Terms of Service
+    <br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Register">
+
+  </form>
+
+</body>
+</html>
